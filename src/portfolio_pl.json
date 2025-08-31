@@ -1,0 +1,272 @@
+{
+  "name": "Michał Gradzik",
+  "label": "programista",
+  "image_path": "img/my-image.png",
+  "contact": {
+    "email": "michalgradzik1000@gmail.com",
+    "location": "Wrocław/Polska"
+  },
+  "summary": "Skończyłem studia magisterkie oraz inżynierskie na Politechnice Wrocławskiej. Programuję głownie w Pythonie ale inne języki mi nie straszne (aktualnie doskonalę C++)",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/GradzikMichal",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Nokia",
+      "position": "Python developer",
+      "url": "https://nokiawroclaw.pl",
+      "start_date": "07/2024",
+      "end_date": "10/2024",
+      "summary": "Pisowanie kodów w języku Python z użyciem type hinting.",
+      "highlights": [
+        "Utrzymywanie i rozszerzanie architektury,", "Pisanie testów,",
+        "Szukanie odpowiednich modeli sztucznej inteligencji do danego zadania oraz ich nauka,",
+        "Przygotowanie danych do nauki modeli sztucznej inteligencji."
+      ]
+    },
+    {
+      "company": "Nokia",
+      "position": "Fullstack SW Working Studen",
+      "url": "https://nokiawroclaw.pl",
+      "start_date": "05/2023",
+      "end_date": "05/2024",
+      "summary": "Tworzenie backendu w języku Java oraz pomoc w tworzeniu Frontendu z użyciem Reacta.",
+      "highlights": [
+        "Tworzenie nowej oraz rozszerzanie istniejącej architektury,", "Pisanie testów unitowych, integracyjnych, e2e oraz kontraktowych",
+        "Integracja nowych mikro serwisów w AWS,", "Tworzenie baz danych i ich struktury,",
+        "Tworzenie nowych endpointów korzystających z modelu CRUD,", "Tworzenie dokumentacji API za pomocą Swagger."
+      ]
+    }
+  ],
+  "project_types": [
+    {
+      "name": "python",
+      "projects": [
+        {
+          "title": "Układ okresowy",
+          "url": "https://github.com/GradzikMichal/periodic_table",
+          "summary": "Projekt dwuosobowy wykonany na zaliczenie przedmiotu 'Programowanie obiektowe'.",
+          "highlights": [
+            "Rozwiązanie problemu dotyczącego wyboru języka programowania,", "Wykorzystanie platformy Microsoft Azure do utworzenia bazy danych za pomocą SQL,",
+            "Wykorzystanie TKinter, open3d do utworzenia GUI użytkownika,", "Prawie cały projekt wykonany samodzielnie,","Zaktualizowanie kodu na potrzeby przeniesienia bazy danych z MS Azure do pliku .db."
+          ],
+          "images": [
+            {
+              "img_path": "img/periodic_table_gui.png",
+              "caption": "Tablica okresowa pierwiastków (GUI)."
+            },
+            {
+              "img_path": "img/atom_lookup_gui.png",
+              "caption": "Bardzo uproszczony model atomu."
+            }
+          ]
+        },
+        {
+          "title": "Autonomiczne auto",
+          "url": "",
+          "summary": "Projekt wykonany w ramach wykupionego kursu na udemy do nauki sztucznej inteligencji. Został on później przerobiony i wykorzystany w ramach zaliczenia kursu uczelnianego.",
+          "highlights": [
+            "Rozpoczęcie przygody ze sztuczną inteligencją,", "Nauka biblioteki PyTorch,",
+            "Przerobienie kodu by mógł funckjonować na dwóch Raspberry Pi równolegle. Użyto do tego bazy danych."
+          ],
+          "images": [
+            {
+              "img_path": "img/autonomous_caar.png",
+              "caption": "GUI autonomicznego auta."
+            }
+          ]
+        },
+        {
+          "title": "Sudoku",
+          "url": "",
+          "summary": "Projekt wykonany dla znajomej. Jeden z pierwszych kodów jakie napisałem",
+          "highlights": [
+            "Pierwszy interfejs graficzny jaki wykonałem,", "Nauka bibliotek Tkinter,",
+            "Wymyślenie algorytmu by sudoku działało."
+          ],
+          "images": [
+            {
+              "img_path": "img/sudoku.png",
+              "caption": "GUI aplikacji sudoku."
+            }
+          ]
+        },
+        {
+          "title": "Mały webscraping",
+          "url": "",
+          "summary": "Jako zaliczenie na celującą ocenę z programowania napisałem kilka lat temu mały kod dotyczący web scrapingu.",
+          "highlights": [
+            "Jeden z pierwszych web scrappingów jakie stworzyłem,", "Dzięki nauczeniu się pewnych rzeczy, później łatwiej mi był napisać kod by znaleźć tanią PS5."
+          ]
+        },
+        {
+          "title": "Zadania i miniprojekty uczelniane",
+          "url": "",
+          "summary": "Podczas moich studiów wykonałem bardzo dużo zadań i miniprojektów z programowania. Zadania dotyczyły róźnych aspektów od fizyki poprzez statystykę aż po sztuczną inteligencję. Kody zostały umieszczone w jednym repozytorium i są podzielone na przedmioty oraz zadania.",
+          "highlights": [
+            "Doskonalenie swoich umiejętności w pisaniu kodów oraz algorytmów,", "Poznawanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQL i NoSQL",
+      "projects" : [
+        {
+          "title": "Pojekt zaliczeniowy",
+          "url": "",
+          "summary": "Pojekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Było trzeba stworzyć bazę danych jej strukturę w tym pola typy pól i uzupełnienie jej za pomocą SQL.",
+          "highlights": [
+            "Stworzenie bazy danych wraz uzupełnienie jej wymyślonymi danymi w języku PostgreSQL,", "Praca samodzielna."
+          ]
+        },
+        {
+          "title": "Zadania uczelniane",
+          "url": "",
+          "summary": "Pomniejsze zadania z SQL oraz noSQL. Niestety część zadań przepadła podczas zmiany sprzętu.",
+          "highlights": [
+            "Doskonalenie umiejętności i zdobywanie wiedzy z SQL (PostgreSQL),", "Nauka NoSQL (MongoDB)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scala",
+      "projects" : [
+        {
+          "title": "Zadania uczelniane",
+          "url": "",
+          "summary": "Pomniejsze zadania ze Scali uczące możliwości języka.",
+          "highlights": [
+            "Nauka Scali,", "Zmiana podejścia do programowania typowo obiektowego,"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C++",
+      "projects" : [
+        {
+          "title": "Zadania zaliczeniowe",
+          "url": "",
+          "summary": "Zadanie zaliczeniowe z wykorzystaniem QT.",
+          "highlights": [
+            "Nauka nowej technologii,"
+          ]
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Sekcja do spraw kultury Samorządu Studenckiego Politechniki Wrocławskiej",
+      "url": "https://samorzad.pwr.edu.pl",
+      "start_date": "10/2019",
+      "end_date": "06/2024",
+      "summary": "Tworzenie wydarzeń dla studentów takich jak Obóz PWr czy otrzęsiny. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
+      "highlights": [
+        "Stworzenie oraz koordynacja wydarzenia cyklicznego,",
+        "Współpraca podczas organizowania dużych wydarzeń takich jak Obóz PWr czy Forum Uczelni Technicznych"
+      ]
+    },
+    {
+      "organization": "Sekcja informatyzacji Samorządu Studenckiego Politechniki Wrocławskiej",
+      "url": "https://samorzad.pwr.edu.pl",
+      "start_date": "10/2019",
+      "end_date": "06/2024",
+      "summary": "Obsługa strony SSPWr opartej na systemie CMS. Prowadzenie szkoleń z jej obsługi dla różnej grupy studentów"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Politechnika Wrocławska",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
+        "Magister nauk ścisłych"
+      ],
+      "honors": ["TOP 10 studentów kończących studia magisterskie"],
+      "graduation_date": "06/2024"
+    },
+    {
+      "institution": "Politechnika Wrocławska",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
+        "Inżynier nauk ścisłych"
+      ],
+      "graduation_date": "02/2023"
+    }
+  ],
+  "technical_skills": [
+    {
+      "name": "Python",
+      "proficiency": 4,
+      "proficiency_label": "Zaawansowany"
+    },
+    {
+      "name": "Microsoft Office",
+      "proficiency": 4,
+      "proficiency_label": "Zaawansowany"
+    },
+    {
+      "name": "Linux",
+      "proficiency": 3,
+      "proficiency_label": "Średnioaawansowany"
+    },
+    {
+      "name": "Sztuczna inteligencja",
+      "proficiency": 3,
+      "proficiency_label": "Średnioaawansowany"
+    },
+    {
+      "name": "SQL",
+      "proficiency": 3,
+      "proficiency_label": "Średnioaawansowany"
+    },
+    {
+      "name": "Git/Github",
+      "proficiency": 3,
+      "proficiency_label": "Średnioaawansowany"
+    },
+    {
+      "name": "Scala",
+      "proficiency": 2,
+      "proficiency_label": "Junior"
+    }
+  ],
+  "soft_skills": "Zdolność do adaptacji, umiejętność pracy w zespole, elastyczność, kreatywne myślenie, umiejętność rozwiązywania problemów, rozumienie potrzeb zespołu oraz umiejętnośći komunikacyjne",
+  "languages": [
+    {
+      "language": "Angielski",
+      "fluency": "B2/C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Granie w gry komputerowe oraz planszowe."
+    },
+    {
+      "name": "Sztuczna inteligencja"
+    },
+    {
+      "name": "Nowe technologie",
+      "summary": "Lubię czytać o nowych technologiach, które ciągle powstają."
+    },
+    {
+      "name": "Rozwiązywanie zagadek."
+    },
+    {
+      "name": "Gotowanie"
+    },
+    {
+      "name": "Elektronika"
+    }
+  ],
+  "tutorial_link": "https://www.youtube.com/watch?v=ECt0TAl41Zk"
+}
