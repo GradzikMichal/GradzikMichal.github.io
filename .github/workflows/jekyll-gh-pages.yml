@@ -28,6 +28,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install required packages
+        run: pip install jinja2
+      - name: Create new html files
+        run: python generate_portfolio
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
