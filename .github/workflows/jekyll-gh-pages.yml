@@ -35,7 +35,7 @@ jobs:
       - name: Install required packages
         run: pip install jinja2
       - name: Create new html files
-        run: python generate_portfolio
+        run: python generate_portfolio.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
