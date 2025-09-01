@@ -4,23 +4,30 @@ function showContent(itemId) {
 
     if (div.style.height === '0px' || div.style.height === ""){
         div.style.height = "auto";
-        div.style.margin = "auto auto 3px";
         div.style.padding = "0 5px 5px";
         upper_div.style.margin = "auto";
         if (upper_div.getElementsByTagName("h3").length > 0) {
             upper_div.getElementsByTagName("h3").item(0).innerText = itemId + " " + ("\u2BC5".toWellFormed())
         }else if (upper_div.getElementsByTagName("h4").length > 0) {
-            upper_div.getElementsByTagName("h4").item(0).innerText = itemId + " " + ("\u2BC5".toWellFormed())
+            if (upper_div.getElementsByTagName("h4").item(0).firstElementChild){
+                upper_div.getElementsByTagName("h4").item(0).firstElementChild.textContent = itemId + " " + ("\u2BC5".toWellFormed())
+            } else {
+                upper_div.getElementsByTagName("h4").item(0).innerText = itemId + " " + ("\u2BC5".toWellFormed())
+            }
         }
     } else {
         div.style.height = "0";
         div.style.margin = "0";
-        upper_div.style.margin = "3px";
+        upper_div.style.marginBottom = "3px";
         div.style.padding = "0";
         if (upper_div.getElementsByTagName("h3").length > 0) {
             upper_div.getElementsByTagName("h3").item(0).innerText = itemId + " " + ("\u2BC6".toWellFormed());
         }else if (upper_div.getElementsByTagName("h4").length > 0) {
-            upper_div.getElementsByTagName("h4").item(0).innerText = itemId + " " + ("\u2BC6".toWellFormed());
+            if (upper_div.getElementsByTagName("h4").item(0).firstElementChild){
+                upper_div.getElementsByTagName("h4").item(0).firstElementChild.textContent = itemId + " " + ("\u2BC6".toWellFormed())
+            } else {
+                upper_div.getElementsByTagName("h4").item(0).innerText = itemId + " " + ("\u2BC6".toWellFormed())
+            }
         }
 
     }
