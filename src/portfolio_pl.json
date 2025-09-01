@@ -24,22 +24,26 @@
       "end_date": "10/2024",
       "summary": "Pisowanie kodów w języku Python z użyciem type hinting.",
       "highlights": [
-        "Utrzymywanie i rozszerzanie architektury,", "Pisanie testów,",
+        "Utrzymywanie i rozszerzanie architektury,",
+        "Pisanie testów,",
         "Szukanie odpowiednich modeli sztucznej inteligencji do danego zadania oraz ich nauka,",
         "Przygotowanie danych do nauki modeli sztucznej inteligencji."
       ]
     },
     {
       "company": "Nokia",
-      "position": "Fullstack SW Working Studen",
+      "position": "Fullstack SW Working Student",
       "url": "https://nokiawroclaw.pl",
       "start_date": "05/2023",
       "end_date": "05/2024",
       "summary": "Tworzenie backendu w języku Java oraz pomoc w tworzeniu Frontendu z użyciem Reacta.",
       "highlights": [
-        "Tworzenie nowej oraz rozszerzanie istniejącej architektury,", "Pisanie testów unitowych, integracyjnych, e2e oraz kontraktowych",
-        "Integracja nowych mikro serwisów w AWS,", "Tworzenie baz danych i ich struktury,",
-        "Tworzenie nowych endpointów korzystających z modelu CRUD,", "Tworzenie dokumentacji API za pomocą Swagger."
+        "Tworzenie nowej oraz rozszerzanie istniejącej architektury,",
+        "Pisanie testów unitowych, integracyjnych, e2e oraz kontraktowych",
+        "Integracja nowych mikro serwisów w AWS,",
+        "Tworzenie baz danych i ich struktury,",
+        "Tworzenie nowych endpointów korzystających z modelu CRUD,",
+        "Tworzenie dokumentacji API za pomocą Swagger."
       ]
     }
   ],
@@ -62,7 +66,7 @@
             },
             {
               "img_path": "img/atom_lookup_gui.png",
-              "caption": "Bardzo uproszczony model atomu."
+              "caption": "Uproszczony model atomu."
             }
           ]
         },
@@ -118,7 +122,7 @@
       "name": "SQL i NoSQL",
       "projects" : [
         {
-          "title": "Pojekt zaliczeniowy",
+          "title": "Projekt zaliczeniowy",
           "url": "",
           "summary": "Pojekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Było trzeba stworzyć bazę danych jej strukturę w tym pola typy pól i uzupełnienie jej za pomocą SQL.",
           "highlights": [
@@ -190,7 +194,7 @@
       "degrees": [
         "Magister nauk ścisłych"
       ],
-      "honors": ["TOP 10 studentów kończących studia magisterskie"],
+      "honors": ["TOP 10 studentów kończących studia magisterskie."],
       "graduation_date": "06/2024"
     },
     {
@@ -255,8 +259,7 @@
       "name": "Sztuczna inteligencja"
     },
     {
-      "name": "Nowe technologie",
-      "summary": "Lubię czytać o nowych technologiach, które ciągle powstają."
+      "name": "Nowe technologie"
     },
     {
       "name": "Rozwiązywanie zagadek."
