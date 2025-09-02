@@ -57,22 +57,22 @@
           "summary": "Projekt dwuosobowy wykonany na zaliczenie przedmiotu 'Programowanie obiektowe'.",
           "highlights": [
             "Rozwiązanie problemu dotyczącego wyboru języka programowania,", "Wykorzystanie platformy Microsoft Azure do utworzenia bazy danych za pomocą SQL,",
-            "Wykorzystanie TKinter, open3d do utworzenia GUI użytkownika,", "Prawie cały projekt wykonany samodzielnie,","Zaktualizowanie kodu na potrzeby przeniesienia bazy danych z MS Azure do pliku .db."
+            "Wykorzystanie TKinter, open3d do utworzenia GUI użytkownika,", "Prawie cały projekt wykonany samodzielnie,","Zaktualizowanie kodu na potrzeby przeniesienia bazy danych z MS Azure do InMemory db."
           ],
           "images": [
             {
-              "img_path": "img/periodic_table_gui.png",
+              "img_path": "img/periodic_table.png",
               "caption": "Tablica okresowa pierwiastków (GUI)."
             },
             {
-              "img_path": "img/atom_lookup_gui.png",
+              "img_path": "img/atom_lookup.png",
               "caption": "Uproszczony model atomu."
             }
           ]
         },
         {
           "title": "Autonomiczne auto",
-          "url": "",
+          "url": "https://github.com/GradzikMichal/self_driving_car",
           "summary": "Projekt wykonany w ramach wykupionego kursu na udemy do nauki sztucznej inteligencji. Został on później przerobiony i wykorzystany w ramach zaliczenia kursu uczelnianego.",
           "highlights": [
             "Rozpoczęcie przygody ze sztuczną inteligencją,", "Nauka biblioteki PyTorch,",
@@ -80,40 +80,67 @@
           ],
           "images": [
             {
-              "img_path": "img/autonomous_caar.png",
+              "img_path": "img/car.png",
               "caption": "GUI autonomicznego auta."
             }
           ]
         },
         {
           "title": "Sudoku",
-          "url": "",
+          "url": "https://github.com/GradzikMichal/sudoku",
           "summary": "Projekt wykonany dla znajomej. Jeden z pierwszych kodów jakie napisałem",
           "highlights": [
-            "Pierwszy interfejs graficzny jaki wykonałem,", "Nauka bibliotek Tkinter,",
-            "Wymyślenie algorytmu by sudoku działało."
+            "Pierwszy interfejs graficzny jaki wykonałem,", "Nauka biblioteki PySimpleGUI,",
+            "Wymyślenie algorytmu aby sudoku działało,", "Wykonanie aplikacji CLI,", "Wykonanie projektu funkcjonalnie na potrzeby zaliczenia."
           ],
           "images": [
             {
-              "img_path": "img/sudoku.png",
+              "img_path": "img/sudoku_gui.png",
               "caption": "GUI aplikacji sudoku."
+            },
+            {
+              "img_path": "img/sudoku_cli.png",
+              "caption": "CLI sudoku."
             }
           ]
         },
         {
           "title": "Mały webscraping",
-          "url": "",
+          "url": "https://github.com/GradzikMichal/web_scraping",
           "summary": "Jako zaliczenie na celującą ocenę z programowania napisałem kilka lat temu mały kod dotyczący web scrapingu.",
           "highlights": [
-            "Jeden z pierwszych web scrappingów jakie stworzyłem,", "Dzięki nauczeniu się pewnych rzeczy, później łatwiej mi był napisać kod by znaleźć tanią PS5."
+            "Jeden z pierwszych web scrappingów jakie stworzyłem,", "Dzięki nauczeniu się pewnych rzeczy, później łatwiej mi był napisać kod by znaleźć tanią PS5, który niestety zapodziałem."
           ]
         },
         {
           "title": "Zadania i miniprojekty uczelniane",
-          "url": "",
+          "url": "https://github.com/GradzikMichal/python_tasks",
           "summary": "Podczas moich studiów wykonałem bardzo dużo zadań i miniprojektów z programowania. Zadania dotyczyły róźnych aspektów od fizyki poprzez statystykę aż po sztuczną inteligencję. Kody zostały umieszczone w jednym repozytorium i są podzielone na przedmioty oraz zadania.",
           "highlights": [
             "Doskonalenie swoich umiejętności w pisaniu kodów oraz algorytmów,", "Poznawanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby"
+          ],
+          "images": [
+            {
+              "img_path": "img/Kac_model_heatmap.png",
+              "caption": "Kac model"
+            },
+            {
+              "img_path": "img/186.png",
+              "caption": "Cellular automata 186"
+            },
+            {
+              "img_path": "img/brain_network.png",
+              "caption": "Sieć"
+            },
+            {
+              "img_path": "img/color_clusters.png",
+              "caption": "Szukanie klastrów"
+            },
+            {
+              "img_path": "img/epidemic_model.png",
+              "caption": "Model epidemii"
+            }
+
           ]
         }
       ]

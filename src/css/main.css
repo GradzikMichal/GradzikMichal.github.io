@@ -333,10 +333,8 @@ aside li {
   min-height: 3rem;
   margin: auto;
   h4 {
-
     margin: auto;
     text-transform: uppercase;
-
   }
 }
 
@@ -413,7 +411,7 @@ blockquote {
 
 @media (min-width: 37.5rem) {
   .main-gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .side-gallery {
