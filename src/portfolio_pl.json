@@ -86,6 +86,29 @@
           ]
         },
         {
+          "title": "Solar System and 1/2/3 body problems",
+          "url": "https://github.com/GradzikMichal/SolarSystem",
+          "summary": "Projekt wykonany na zaliczenie Differential Equations",
+          "highlights": [
+            "Przepisanie i uproszczenie niektórych wzorów matematycznych,", "próba implementacji modeli matematycznych w optymalny sposób,",
+            "Próba prezentacji wyników w czytelny sposób."
+          ],
+          "images": [
+            {
+              "img_path": "img/one_body.png",
+              "caption": "1 body problem."
+            },
+            {
+              "img_path": "img/three_body.png",
+              "caption": "3 body problem."
+            },
+            {
+              "img_path": "img/solar.png",
+              "caption": "Układ słoneczny."
+            }
+          ]
+        },
+        {
           "title": "Sudoku",
           "url": "https://github.com/GradzikMichal/sudoku",
           "summary": "Projekt wykonany dla znajomej. Jeden z pierwszych kodów jakie napisałem",
@@ -149,19 +172,20 @@
       "name": "SQL i NoSQL",
       "projects" : [
         {
-          "title": "Projekt zaliczeniowy",
-          "url": "",
-          "summary": "Pojekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Było trzeba stworzyć bazę danych jej strukturę w tym pola typy pól i uzupełnienie jej za pomocą SQL.",
+          "title": "Mniejsze zadania i projekt zaliczeniowy",
+          "url": "https://github.com/GradzikMichal/SQL_NoSQL_tasks",
+          "summary": "W tym repozytorium została umieszczona mniejsza część zadań wykonanych podczas semestru oraz projekt zaliczeniowy. Projekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Było trzeba stworzyć bazę danych jej strukturę w tym pola typy pól i uzupełnienie jej za pomocą SQL.",
           "highlights": [
-            "Stworzenie bazy danych wraz uzupełnienie jej wymyślonymi danymi w języku PostgreSQL,", "Praca samodzielna."
-          ]
-        },
-        {
-          "title": "Zadania uczelniane",
-          "url": "",
-          "summary": "Pomniejsze zadania z SQL oraz noSQL. Niestety część zadań przepadła podczas zmiany sprzętu.",
-          "highlights": [
-            "Doskonalenie umiejętności i zdobywanie wiedzy z SQL (PostgreSQL),", "Nauka NoSQL (MongoDB)."
+            "Stworzenie bazy danych wraz uzupełnienie jej wymyślonymi danymi w języku PostgreSQL,",
+            "Doskonalenie umiejętności i zdobywanie wiedzy z SQL (PostgreSQL),",
+            "Nauka NoSQL (MongoDB).",
+            "Praca samodzielna."
+          ],
+          "images": [
+            {
+              "img_path": "img/database_graph.jpg",
+              "caption": "Baza danych na projekt zaliczeniowy."
+            }
           ]
         }
       ]
@@ -171,7 +195,7 @@
       "projects" : [
         {
           "title": "Zadania uczelniane",
-          "url": "",
+          "url": "https://github.com/GradzikMichal/Scala_tasks",
           "summary": "Pomniejsze zadania ze Scali uczące możliwości języka.",
           "highlights": [
             "Nauka Scali,", "Zmiana podejścia do programowania typowo obiektowego,"
@@ -184,10 +208,10 @@
       "projects" : [
         {
           "title": "Zadania zaliczeniowe",
-          "url": "",
-          "summary": "Zadanie zaliczeniowe z wykorzystaniem QT.",
+          "url": "https://github.com/GradzikMichal/cpp_project",
+          "summary": "Zadanie zaliczeniowe które pozwala obliczyć wyznacznik macierzy, regresje liniową oraz działać na liczbach zespolonych.",
           "highlights": [
-            "Nauka nowej technologii,"
+            "Pierwszy bardziej rozbudowany interfejs użytkownika jaki zrobiłem,"
           ]
         }
       ]
@@ -199,10 +223,11 @@
       "url": "https://samorzad.pwr.edu.pl",
       "start_date": "10/2019",
       "end_date": "06/2024",
-      "summary": "Tworzenie wydarzeń dla studentów takich jak Obóz PWr czy otrzęsiny. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
+      "summary": "Tworzenie wydarzeń dla studentów takich jak Obóz PWr, otrzęsiny albo Forum Uczelni Technicznych. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
       "highlights": [
         "Stworzenie oraz koordynacja wydarzenia cyklicznego,",
-        "Współpraca podczas organizowania dużych wydarzeń takich jak Obóz PWr czy Forum Uczelni Technicznych"
+        "Współpraca podczas organizowania dużych wydarzeń takich jak Obóz PWr czy Forum Uczelni Technicznych",
+        "Tworzenie aplikacji webowych za pomocą Glide Apps takich jak podróbka Tindera dla zjazdu FUT czy aplikacja z informacjami dla nowych studentów (Dni Zero)"
       ]
     },
     {
