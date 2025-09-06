@@ -21,6 +21,9 @@
     <meta name="theme-color" content="#00563f" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">
     <link rel="manifest" href="/site.webmanifest">
+    <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
 </head>
 <body>
     <header class="page-header">
@@ -71,6 +74,8 @@
                     {% endif %}
                     {% if summary %}<p class="header-summary">{{ summary }}</p>{% endif %}
                 </div>
+                <div class="header flag_pl" onClick="swap_to_pl()">
+                </div>
             </div>
         </div>
     </header>
@@ -80,14 +85,14 @@
             <main>
                 {% if work_experience %}
                     <section>
-                        <h2 class="section-heading">Work Experience</h2>
+                        <h2 class="section-heading">Work experience</h2>
                         {% for job in work_experience %}
                             <section>
                                 <h3>
                                     {% if job.url %}
-                                        {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+                                        {{ job.position }} w <a href="{{ job.url }}">{{ job.company }}</a>
                                     {% else %}
-                                        {{ job.position }} at {{ job.company }}
+                                        {{ job.position }} w {{ job.company }}
                                     {% endif %}
                                 </h3>
                                 {% if job.start_date and job.end_date %}
@@ -95,9 +100,7 @@
                                 {% endif %}
                                 {% if job.highlights %}
                                     <ul>
-                                        {% for highlight in job.highlights %}
-                                        <li>{{ highlight }}</li>
-                                        {% endfor %}
+                                        {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
                                     </ul>
                                 {% endif %}
                             </section>
@@ -109,51 +112,64 @@
                     <section>
                         <h2 class="section-heading">Projects</h2>
                         {% for project_type in project_types %}
-                            <div class="project_type_name" id="{{ project_type.name }}" onClick="">{{ project_type.name }}</div>
-                            {% for project in project_type.projects %}
-                                <div>
-                                    <h3>
-                                        {% if project.url %}
-                                          <a href="{{ project.url }}">{{ project.title }}</a>
-                                        {% else %}
-                                          {{ project.title }}
-                                        {% endif %}
-                                    </h3>
-                                    {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
-                                    {% if project.highlights %}
-                                        <ul>
-                                            {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
-                                        </ul>
-                                    {% endif %}
-                                    {% if project.images %}
-                                        <div class="gallery main-gallery">
-                                            {% for img in project.images %}
-                                                <figure>
-                                                    <img width="600"
-                                                        height="338"
-                                                        src="{{ img.img_path }}"
-                                                        alt="{{ img.caption }}">
-                                                    <figcaption>{{ img.caption }}</figcaption>
-                                                </figure>
-                                            {% endfor %}
+                            <div class="project_type_name" id="{{ project_type.name }}" onClick="showContent('{{ project_type.name }}')">
+                                <h3 class="section-heading">{{ project_type.name }} &#x2BC6;</h3>
+                            </div>
+                            <div class="project_type_container" id="{{ project_type.name }}_container">
+                                {% for project in project_type.projects %}
+                                    <div class="project_container">
+                                        <div class="project_container_heading" id="{{ project.title }}" onClick="showContent('{{ project.title }}')">
+                                            <h4 class="section-heading">
+                                                {% if project.url %}
+                                                    <a href="{{ project.url }}" target="_blank">{{ project.title }} &#x2BC6;</a>
+                                                {% else %}
+                                                    {{ project.title }} &#x2BC6;
+                                                {% endif %}
+                                            </h4>
                                         </div>
-                                    {% endif %}
-                                </div>
-                            {% endfor %}
+                                        <div class="project_container_container" id="{{ project.title }}_container" >
+                                            {% if project.summary %}
+                                                <p>
+                                                    {{ project.summary }}
+                                                </p>
+                                            {% endif %}
+                                            {% if project.highlights %}
+                                            <ul>
+                                                {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                                            </ul>
+                                            {% endif %}
+                                            {% if project.images %}
+                                                <div class="gallery main-gallery">
+                                                {% for img in project.images %}
+                                                    <figure>
+                                                        <img width="600"
+                                                            height="338"
+                                                            src="{{ img.img_path }}"
+                                                            alt="{{ img.caption }}">
+                                                        <figcaption>{{ img.caption }}</figcaption>
+                                                    </figure>
+                                                {% endfor %}
+                                            </div>
+                                            {% endif %}
+                                        </div>
+
+                                    </div>
+                                {% endfor %}
+                            </div>
                         {% endfor %}
                     </section>
                 {% endif %}
 
                 {% if volunteer_experience %}
                     <section>
-                        <h2 class="section-heading">Volunteer Experience</h2>
+                        <h2 class="section-heading">Organizations</h2>
                         {% for vol in volunteer_experience %}
                             <section>
                                 <h3>
                                     {% if vol.url %}
-                                        {{ vol.position }} at <a href="{{ vol.url }}">{{ vol.organization }}</a>
+                                        <a href="{{ vol.url }}">{{ vol.organization }}</a>
                                     {% else %}
-                                        {{ vol.position }} at {{ vol.organization }}
+                                        {{ vol.organization }}
                                     {% endif %}
                                 </h3>
                                 {% if vol.start_date and vol.end_date %}
@@ -229,22 +245,23 @@
                                 </h3>
                                 {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
                                 {% if edu.degrees %}
-                                    <h4>Degrees</h4>
+                                    <h4>Degree</h4>
                                     <ul>
                                         {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
                                     </ul>
+
+                                {% if edu.major %}<p><span class="block">Major: {{ edu.major }}</span></p>{% endif %}
                                 {% endif %}
                                     {% if edu.honors %}
-                                        <h4>Honors</h4>
+                                        <h4>Highlights</h4>
                                         <ul>
                                             {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
                                         </ul>
                                     {% endif %}
-                                {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                                {% if edu.gpa_cumulative or edu.graduation_date %}
                                     <p>
-                                        {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
                                         {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
-                                        {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
+                                        {% if edu.graduation_date %}<span class="block">Data zakończenia: {{ edu.graduation_date }}</span>{% endif %}
                                     </p>
                                 {% endif %}
                             </section>
@@ -282,9 +299,10 @@
     <footer class="page-footer">
         <div class="container">
             <p>© {{ current_year }} {{ name }}. All rights reserved.</p>
-            <p>Created with use of this <a href="{{ tutorial_link }}">tutorial</a></p>
+            <p>Created using <a href="{{ tutorial_link }}">this</a> tutorial.</p>
         </div>
     </footer>
-    <script src="js/app.js"></script>
 </body>
+    <script src="js/app.js"></script>
+
 </html>

@@ -33,3 +33,19 @@ function showContent(itemId) {
     }
 }
 
+function swap_to_eng() {
+    let new_html = fetch("./index_en.html").then(
+        async response => {
+            document.querySelector('html').innerHTML = await response.text();
+        }
+    )
+}
+
+function swap_to_pl() {
+    let new_html = fetch("./index.html").then(
+        async response => {
+            document.querySelector('html').innerHTML = await response.text();
+        }
+    )
+}
+

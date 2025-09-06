@@ -1,0 +1,341 @@
+{
+  "name": "Michał Gradzik",
+  "label": "Programmer",
+  "image_path": "img/my-image.jpg",
+  "contact": {
+    "email": "michalgradzik1000@gmail.com",
+    "location": "Wrocław/Poland"
+  },
+  "summary": "I completed my master's and bachelor's degrees at Wrocław University of Technology. I mainly programming in Python, but I am not afraid of other languages (I am currently improving my C++ skills).",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/GradzikMichal",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Nokia",
+      "position": "Python developer",
+      "url": "https://nokiawroclaw.pl",
+      "start_date": "07/2024",
+      "end_date": "10/2024",
+      "summary": "Writing codes in Python with type hinting.",
+      "highlights": [
+        "Maintaining and expanding the software",
+        "Writing unit tests,",
+        "Searching for suitable artificial intelligence models for a given task and training them,",
+        "Preparing data for training artificial intelligence models."
+      ]
+    },
+    {
+      "company": "Nokia",
+      "position": "Fullstack SW Working Student",
+      "url": "https://nokiawroclaw.pl",
+      "start_date": "05/2023",
+      "end_date": "05/2024",
+      "summary": "Creating a backend in Java and assisting in the creation of a frontend using React.",
+      "highlights": [
+        "Creating new and expanding existing architecture,",
+        "Writing unit, integration, e2e and contract tests",
+        "Integration of new microservices in AWS",
+        "Creating structure and databases itself",
+        "Creating new endpoints in CRUD methodology",
+        "Creating API documentation using Swagger."
+      ]
+    }
+  ],
+  "project_types": [
+    {
+      "name": "python",
+      "projects": [
+        {
+          "title": "ML/AI tasks",
+          "url": "https://github.com/GradzikMichal/machine_learning_tasks",
+          "summary": "Exercises and projest done during ML laboratories",
+          "highlights": [
+            "Learned machine learning from the scratch for example writing SVM or neural networks using numpy",
+            "Learned VGG and ResNet models", "Learned concept of transformers and GAN"
+          ]
+        },
+        {
+          "title": "Periodic table",
+          "url": "https://github.com/GradzikMichal/periodic_table",
+          "summary": "Two person project done for 'Object programming' course",
+          "highlights": [
+            "Solved issue with choosing programming language,", "Used Microsoft Azure for database hosting and communicating with it using SQL,",
+            "Used Tkinter and Open3D to create GUI,", "Almost whole project done by myself,", "Moved remoted MS Azure database to InMemory database"
+          ],
+          "images": [
+            {
+              "img_path": "img/periodic_table.png",
+              "caption": "Periodic table (GUI)."
+            },
+            {
+              "img_path": "img/atom_lookup.png",
+              "caption": "Simplified atom model."
+            }
+          ]
+        },
+        {
+          "title": "Self driving car",
+          "url": "https://github.com/GradzikMichal/self_driving_car",
+
+          "summary": "Project done for bought AI course on Udemy. Later it was changed for the purpose of passing the academic course.",
+          "highlights": [
+            "Started the journey with AI,", "Learned PyTorch library",
+            "Changed code to worked on two Raspberry Pi in the same time. Database was used for this."
+          ],
+          "images": [
+            {
+              "img_path": "img/car.png",
+              "caption": "Self driving car GUI."
+            }
+          ]
+        },
+        {
+          "title": "Solar system and 1/2/3 body problem",
+          "url": "https://github.com/GradzikMichal/SolarSystem",
+          "summary": "Project done for passing Differential Equations course",
+          "highlights": [
+            "",
+            "Rewriting and simplifying certain mathematical formulas,", "Tried implementing mathematics models in optimal way,",
+            "Learned how to present the results in readable way."
+          ],
+          "images": [
+            {
+              "img_path": "img/one_body.png",
+              "caption": "1 body problem."
+            },
+            {
+              "img_path": "img/three_body.png",
+              "caption": "3 body problem."
+            },
+            {
+              "img_path": "img/solar.png",
+              "caption": "Solar system."
+            }
+          ]
+        },
+        {
+          "title": "Sudoku",
+          "url": "https://github.com/GradzikMichal/sudoku",
+          "summary": "One of the first codes I have ever done.",
+          "highlights": [
+
+            "First GUI I have ever done,", "Learned PySimpleGUI library,",
+            "Created algorithm for sudoku,", "Created CLI application,"
+          ],
+          "images": [
+            {
+              "img_path": "img/sudoku_gui.png",
+              "caption": "Sudoku GUI."
+            },
+            {
+              "img_path": "img/sudoku_cli.png",
+              "caption": "Sudoku CLI."
+            }
+          ]
+        },
+        {
+          "title": "A small webscrapping",
+          "url": "https://github.com/GradzikMichal/web_scraping",
+          "summary": "Project written as part of a programming course to obtain an excellent passing grade.",
+          "highlights": [
+            "Code allowing the collection of prices for a given product", "In later stages of development, the code was used to automate the search for good deals on other products,", "One of the first web scrapers I created."
+          ]
+        },
+        {
+          "title": "Academic tasks and mini projects",
+          "url": "https://github.com/GradzikMichal/python_tasks",
+          "summary": "During my studies, I completed a large number of programming tasks and mini-projects. The tasks covered various aspects, from physics and statistics to artificial intelligence. The codes have been placed in a single repository and are divided into subjects and tasks.",
+          "highlights": [
+            "Improving skills in writing code and algorithms,",  "Getting to know new libraries, e.g. Numba,", "I have learned how to make clearer graphs and present results in a way that is understandable to others."
+          ],
+          "images": [
+            {
+              "img_path": "img/Kac_model_heatmap.png",
+              "caption": "Kac model"
+            },
+            {
+              "img_path": "img/186.png",
+              "caption": "Cellular automata 186"
+            },
+            {
+              "img_path": "img/brain_network.png",
+              "caption": "Network"
+            },
+            {
+              "img_path": "img/color_clusters.png",
+              "caption": "Cluster searching"
+            },
+            {
+              "img_path": "img/epidemic_model.png",
+              "caption": "Epidemic model"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQL i NoSQL",
+      "projects" : [
+        {
+          "title": "Smaller tasks acedemic tasks and project",
+          "url": "https://github.com/GradzikMichal/SQL_NoSQL_tasks",
+          "summary": "This repository contains a small portion of the tasks completed during the semester and the final project. The project involved inventing or finding a real life problem and solving it using a database. A database was created, its structure was designed, and it was supplemented using SQL.",
+          "highlights": [
+            "Creating a database and populating it with fictitious data using PostgreSQL.,",
+            "Improving skills and acquiring knowledge of SQL (PostgreSQL),",
+            "Learning NoSQL (MongoDB).",
+            "Independent work."
+          ],
+          "images": [
+            {
+              "img_path": "img/database_graph.jpg",
+              "caption": "Database project."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scala",
+      "projects" : [
+        {
+          "title": "Academic tasks",
+          "url": "https://github.com/GradzikMichal/Scala_tasks",
+          "summary": "A smaller Scala tasks.",
+          "highlights": [
+            "Learning Scala,", "A change in approach to typical object-oriented programming."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C++",
+      "projects" : [
+        {
+          "title": "Final assignment",
+          "url": "https://github.com/GradzikMichal/cpp_project",
+          "summary": "A final assignment that allows one to calculate the determinant of a matrix, linear regression, and perform operations on complex numbers.",
+          "highlights": [
+            "The first more complex CLI interface I made."
+          ]
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Students' Union of Wroclaw University of Science and Technology commission for Culture and Projects",
+      "url": "https://samorzad.pwr.edu.pl",
+      "start_date": "10/2019",
+      "end_date": "06/2024",
+      "summary": "Creating events for students, such as the Wroclaw University of Technology Camp, initiation ceremonies, or the Technical University Forum. Collaborating with external parties when creating events.",
+      "highlights": [
+        "Creation and coordination of a recurring event,",
+        "Cooperation in organising large events such as the Wroclaw University of Technology Camp and the Technical Universities Forum",
+        "Creating web applications using Glide Apps, such as a Tinder knock-off for the Technical Universities Forum reunion or an information app for new students (Zero Days)."
+      ]
+    },
+    {
+      "organization": "Students' Union of Wroclaw University of Science and Technology commission for Information Technology",
+      "url": "https://samorzad.pwr.edu.pl",
+      "start_date": "10/2019",
+      "end_date": "06/2024",
+      "summary": "Maintenance of the SSPWr website based on the CMS system. Conducting training courses on its use for various groups of students."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Wroclaw University of Science and Technology",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
+        "Master's degree"
+      ],
+      "major": "Big Data Analytics",
+      "honors": ["TOP 10 students finishing master's degree."],
+      "graduation_date": "06/2024"
+    },
+    {
+      "institution": "Wroclaw University of Science and Technology",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
+        "Bachelor's degree"
+      ],
+      "major": "Electronics and telecommunications",
+      "graduation_date": "02/2023"
+    }
+  ],
+  "technical_skills": [
+    {
+      "name": "Python",
+      "proficiency": 4,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Microsoft Office",
+      "proficiency": 4,
+      "proficiency_label": "Proficient"
+    },
+    {
+      "name": "Linux",
+      "proficiency": 3,
+      "proficiency_label": "Competent"
+    },
+    {
+      "name": "Sztuczna inteligencja",
+      "proficiency": 3,
+      "proficiency_label": "Competent"
+    },
+    {
+      "name": "SQL",
+      "proficiency": 3,
+      "proficiency_label": "Competent"
+    },
+    {
+      "name": "Git/Github",
+      "proficiency": 3,
+      "proficiency_label": "Competent"
+    },
+    {
+      "name": "Scala",
+      "proficiency": 2,
+      "proficiency_label": "Amateur"
+    }
+  ],
+  "soft_skills": "Adaptability, teamwork, flexibility, problem-solving, understanding team needs, communication skills, fast learner, creativity.",
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial intelligence"
+    },
+    {
+      "name": "New technologies"
+    },
+    {
+      "name": "Puzzle solving"
+    },
+    {
+      "name": "Electronics"
+    },
+    {
+      "name": "Cooking"
+    },
+    {
+      "name": "Games"
+    }
+  ],
+  "tutorial_link": "https://www.youtube.com/watch?v=ECt0TAl41Zk"
+}

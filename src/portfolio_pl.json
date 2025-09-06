@@ -1,7 +1,7 @@
 {
   "name": "Michał Gradzik",
   "label": "programista",
-  "image_path": "img/my-image.png",
+  "image_path": "img/my-image.jpg",
   "contact": {
     "email": "michalgradzik1000@gmail.com",
     "location": "Wrocław/Polska"
@@ -25,7 +25,7 @@
       "summary": "Pisowanie kodów w języku Python z użyciem type hinting.",
       "highlights": [
         "Utrzymywanie i rozszerzanie architektury,",
-        "Pisanie testów,",
+        "Pisanie testów unitowych,",
         "Szukanie odpowiednich modeli sztucznej inteligencji do danego zadania oraz ich nauka,",
         "Przygotowanie danych do nauki modeli sztucznej inteligencji."
       ]
@@ -56,7 +56,7 @@
           "url": "https://github.com/GradzikMichal/machine_learning_tasks",
           "summary": "Zadania i projekt wykonane podczas dwóch laboratoriów studiów magisterskich.",
           "highlights": [
-            "Nauka ML od podstaw np. SVM czy sieci neuronowe napisałem samodzielnie w oparciu o numpy", "Nauka biblioteki PyTorch,",
+            "Nauka ML od podstaw np. SVM czy sieci neuronowe napisałem samodzielnie w oparciu o numpy",
             "Nauka modeli takich VGG albo ResNet,", "Wstępna nauka takich konceptów jak transformery czy GAN."
           ]
         },
@@ -66,7 +66,7 @@
           "summary": "Projekt dwuosobowy wykonany na zaliczenie przedmiotu 'Programowanie obiektowe'.",
           "highlights": [
             "Rozwiązanie problemu dotyczącego wyboru języka programowania,", "Wykorzystanie platformy Microsoft Azure do utworzenia bazy danych za pomocą SQL,",
-            "Wykorzystanie TKinter, open3d do utworzenia GUI użytkownika,", "Prawie cały projekt wykonany samodzielnie,","Zaktualizowanie kodu na potrzeby przeniesienia bazy danych z MS Azure do InMemory db."
+            "Wykorzystanie TKinter, open3d do utworzenia GUI,", "Prawie cały projekt wykonany samodzielnie,","Zaktualizowanie kodu na potrzeby przeniesienia bazy danych z MS Azure do InMemory db."
           ],
           "images": [
             {
@@ -99,17 +99,17 @@
           "url": "https://github.com/GradzikMichal/SolarSystem",
           "summary": "Projekt wykonany na zaliczenie Differential Equations",
           "highlights": [
-            "Przepisanie i uproszczenie niektórych wzorów matematycznych,", "próba implementacji modeli matematycznych w optymalny sposób,",
-            "Próba prezentacji wyników w czytelny sposób."
+            "Przepisanie i uproszczenie niektórych wzorów matematycznych,", "Próba implementacji modeli matematycznych w optymalny sposób,",
+            "Nauka prezentacji wyników w czytelny sposób."
           ],
           "images": [
             {
               "img_path": "img/one_body.png",
-              "caption": "1 body problem."
+              "caption": "Problem 1 ciała."
             },
             {
               "img_path": "img/three_body.png",
-              "caption": "3 body problem."
+              "caption": "Problem 3 ciał."
             },
             {
               "img_path": "img/solar.png",
@@ -120,10 +120,10 @@
         {
           "title": "Sudoku",
           "url": "https://github.com/GradzikMichal/sudoku",
-          "summary": "Projekt wykonany dla znajomej. Jeden z pierwszych kodów jakie napisałem",
+          "summary": "Jeden z pierwszych kodów jakie napisałem",
           "highlights": [
             "Pierwszy interfejs graficzny jaki wykonałem,", "Nauka biblioteki PySimpleGUI,",
-            "Wymyślenie algorytmu aby sudoku działało,", "Wykonanie aplikacji CLI,", "Wykonanie projektu funkcjonalnie na potrzeby zaliczenia."
+            "Wymyślenie algorytmu aby sudoku działało,", "Wykonanie aplikacji CLI,"
           ],
           "images": [
             {
@@ -139,9 +139,9 @@
         {
           "title": "Mały webscraping",
           "url": "https://github.com/GradzikMichal/web_scraping",
-          "summary": "Jako zaliczenie na celującą ocenę z programowania napisałem kilka lat temu mały kod dotyczący web scrapingu.",
+          "summary": "Projekt napisany w ramach zaliczenia na ocenę celującą z kursu z programowania.",
           "highlights": [
-            "Jeden z pierwszych web scrappingów jakie stworzyłem,", "Dzięki nauczeniu się pewnych rzeczy, później łatwiej mi był napisać kod by znaleźć tanią PS5, który niestety zapodziałem."
+            "Kod pozwalający na zbieranie cen dotyczących danego produktu", "W dalszych stadiach rozwoju, kod znalazł zastosowanie w zautomatyzowaniu wyszukiwania dobrych ofert innych produktow.", "Jeden z pierwszych web scrappingów jakie stworzyłem,"
           ]
         },
         {
@@ -149,7 +149,7 @@
           "url": "https://github.com/GradzikMichal/python_tasks",
           "summary": "Podczas moich studiów wykonałem bardzo dużo zadań i miniprojektów z programowania. Zadania dotyczyły róźnych aspektów od fizyki poprzez statystykę aż po sztuczną inteligencję. Kody zostały umieszczone w jednym repozytorium i są podzielone na przedmioty oraz zadania.",
           "highlights": [
-            "Doskonalenie swoich umiejętności w pisaniu kodów oraz algorytmów,",  "Poznawanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby"
+            "Doskonalenie umiejętności w pisaniu kodów oraz algorytmów,",  "Poznanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby"
           ],
           "images": [
             {
@@ -183,9 +183,9 @@
         {
           "title": "Mniejsze zadania i projekt zaliczeniowy",
           "url": "https://github.com/GradzikMichal/SQL_NoSQL_tasks",
-          "summary": "W tym repozytorium została umieszczona mniejsza część zadań wykonanych podczas semestru oraz projekt zaliczeniowy. Projekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Było trzeba stworzyć bazę danych jej strukturę w tym pola typy pól i uzupełnienie jej za pomocą SQL.",
+          "summary": "W tym repozytorium została umieszczona mniejsza część zadań wykonanych podczas semestru oraz projekt zaliczeniowy. Projekt dotyczył wymyślenia albo znalezienia prawdziwego problemu problemu i rozwiązania go za pomocą bazy danych. Została stworzona baza danych, jej struktura oraz uzupełniono ją za pomocą SQL.",
           "highlights": [
-            "Stworzenie bazy danych wraz uzupełnienie jej wymyślonymi danymi w języku PostgreSQL,",
+            "Stworzenie bazy danych oraz uzupełnienie jej wymyślonymi danymi wykorzystując język PostgreSQL,",
             "Doskonalenie umiejętności i zdobywanie wiedzy z SQL (PostgreSQL),",
             "Nauka NoSQL (MongoDB).",
             "Praca samodzielna."
@@ -207,7 +207,7 @@
           "url": "https://github.com/GradzikMichal/Scala_tasks",
           "summary": "Pomniejsze zadania ze Scali uczące możliwości języka.",
           "highlights": [
-            "Nauka Scali,", "Zmiana podejścia do programowania typowo obiektowego,"
+            "Nauka Scali,", "Zmiana podejścia do programowania typowo obiektowego."
           ]
         }
       ]
@@ -216,11 +216,11 @@
       "name": "C++",
       "projects" : [
         {
-          "title": "Zadania zaliczeniowe",
+          "title": "Zadanie zaliczeniowe",
           "url": "https://github.com/GradzikMichal/cpp_project",
-          "summary": "Zadanie zaliczeniowe które pozwala obliczyć wyznacznik macierzy, regresje liniową oraz działać na liczbach zespolonych.",
+          "summary": "Zadanie zaliczeniowe które pozwala obliczyć wyznacznik macierzy, regresję liniową oraz działać na liczbach zespolonych.",
           "highlights": [
-            "Pierwszy bardziej rozbudowany interfejs użytkownika jaki zrobiłem,"
+            "Pierwszy bardziej rozbudowany interfejs konsolowy jaki zrobiłem,"
           ]
         }
       ]
@@ -232,11 +232,11 @@
       "url": "https://samorzad.pwr.edu.pl",
       "start_date": "10/2019",
       "end_date": "06/2024",
-      "summary": "Tworzenie wydarzeń dla studentów takich jak Obóz PWr, otrzęsiny albo Forum Uczelni Technicznych. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
+      "summary": "Tworzenie wydarzeń dla studentów, takich jak Obóz PWr, otrzęsiny lub Forum Uczelni Technicznych. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
       "highlights": [
         "Stworzenie oraz koordynacja wydarzenia cyklicznego,",
-        "Współpraca podczas organizowania dużych wydarzeń takich jak Obóz PWr czy Forum Uczelni Technicznych",
-        "Tworzenie aplikacji webowych za pomocą Glide Apps takich jak podróbka Tindera dla zjazdu FUT czy aplikacja z informacjami dla nowych studentów (Dni Zero)"
+        "Współpraca podczas organizowania dużych wydarzeń, takich jak Obóz PWr czy Forum Uczelni Technicznych",
+        "Tworzenie aplikacji webowych za pomocą Glide Apps, takich jak podróbka Tindera dla zjazdu FUT czy aplikacja z informacjami dla nowych studentów (Dni Zero)"
       ]
     },
     {
@@ -255,6 +255,7 @@
       "degrees": [
         "Magister nauk ścisłych"
       ],
+      "major": "Big Data Analytics",
       "honors": ["TOP 10 studentów kończących studia magisterskie."],
       "graduation_date": "06/2024"
     },
@@ -265,6 +266,7 @@
       "degrees": [
         "Inżynier nauk ścisłych"
       ],
+      "major": "Elektronika i telekomunikacja",
       "graduation_date": "02/2023"
     }
   ],
@@ -314,9 +316,6 @@
   ],
   "interests": [
     {
-      "name": "Granie w gry komputerowe oraz planszowe."
-    },
-    {
       "name": "Sztuczna inteligencja"
     },
     {
@@ -326,10 +325,13 @@
       "name": "Rozwiązywanie zagadek."
     },
     {
+      "name": "Elektronika"
+    },
+    {
       "name": "Gotowanie"
     },
     {
-      "name": "Elektronika"
+      "name": "Granie w gry komputerowe oraz planszowe."
     }
   ],
   "tutorial_link": "https://www.youtube.com/watch?v=ECt0TAl41Zk"

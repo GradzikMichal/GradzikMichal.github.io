@@ -409,6 +409,22 @@ blockquote {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.flag_en {
+  width: 60px;
+  height: 30px;
+  background-image: url("../img/eng_flag.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flag_pl {
+  width: 60px;
+  height: 30px;
+  background-image: url("../img/pl_flag.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 37.5rem) {
   .main-gallery {
     grid-template-columns: repeat(2, 1fr);
