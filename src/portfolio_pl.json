@@ -39,7 +39,7 @@
       "summary": "Tworzenie backendu w języku Java oraz pomoc w tworzeniu Frontendu z użyciem Reacta.",
       "highlights": [
         "Tworzenie nowej oraz rozszerzanie istniejącej architektury,",
-        "Pisanie testów unitowych, integracyjnych, e2e oraz kontraktowych",
+        "Pisanie testów unitowych, integracyjnych, e2e oraz kontraktowych,",
         "Integracja nowych mikro serwisów w AWS,",
         "Tworzenie baz danych i ich struktury,",
         "Tworzenie nowych endpointów korzystających z modelu CRUD,",
@@ -56,7 +56,7 @@
           "url": "https://github.com/GradzikMichal/machine_learning_tasks",
           "summary": "Zadania i projekt wykonane podczas dwóch laboratoriów studiów magisterskich.",
           "highlights": [
-            "Nauka ML od podstaw np. SVM czy sieci neuronowe napisałem samodzielnie w oparciu o numpy",
+            "Nauka ML od podstaw np. SVM czy sieci neuronowe napisałem samodzielnie w oparciu o numpy,",
             "Nauka modeli takich VGG albo ResNet,", "Wstępna nauka takich konceptów jak transformery czy GAN."
           ]
         },
@@ -123,7 +123,7 @@
           "summary": "Jeden z pierwszych kodów jakie napisałem",
           "highlights": [
             "Pierwszy interfejs graficzny jaki wykonałem,", "Nauka biblioteki PySimpleGUI,",
-            "Wymyślenie algorytmu aby sudoku działało,", "Wykonanie aplikacji CLI,"
+            "Wymyślenie algorytmu aby sudoku działało,", "Wykonanie aplikacji CLI."
           ],
           "images": [
             {
@@ -141,7 +141,7 @@
           "url": "https://github.com/GradzikMichal/web_scraping",
           "summary": "Projekt napisany w ramach zaliczenia na ocenę celującą z kursu z programowania.",
           "highlights": [
-            "Kod pozwalający na zbieranie cen dotyczących danego produktu", "W dalszych stadiach rozwoju, kod znalazł zastosowanie w zautomatyzowaniu wyszukiwania dobrych ofert innych produktow.", "Jeden z pierwszych web scrappingów jakie stworzyłem,"
+            "Kod pozwalający na zbieranie cen dotyczących danego produktu,", "W dalszych stadiach rozwoju, kod znalazł zastosowanie w zautomatyzowaniu wyszukiwania dobrych ofert innych produktow,", "Jeden z pierwszych web scrappingów jakie stworzyłem."
           ]
         },
         {
@@ -149,7 +149,7 @@
           "url": "https://github.com/GradzikMichal/python_tasks",
           "summary": "Podczas moich studiów wykonałem bardzo dużo zadań i miniprojektów z programowania. Zadania dotyczyły róźnych aspektów od fizyki poprzez statystykę aż po sztuczną inteligencję. Kody zostały umieszczone w jednym repozytorium i są podzielone na przedmioty oraz zadania.",
           "highlights": [
-            "Doskonalenie umiejętności w pisaniu kodów oraz algorytmów,",  "Poznanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby"
+            "Doskonalenie umiejętności w pisaniu kodów oraz algorytmów,",  "Poznanie nowych bibliotek np. Numba,", "Nauczyłem się robić czytelniejsze wykresy oraz przedstawiać wyniki w sposób zrozumiały dla drugiej osoby."
           ],
           "images": [
             {
@@ -187,7 +187,7 @@
           "highlights": [
             "Stworzenie bazy danych oraz uzupełnienie jej wymyślonymi danymi wykorzystując język PostgreSQL,",
             "Doskonalenie umiejętności i zdobywanie wiedzy z SQL (PostgreSQL),",
-            "Nauka NoSQL (MongoDB).",
+            "Nauka NoSQL (MongoDB),",
             "Praca samodzielna."
           ],
           "images": [
@@ -220,7 +220,7 @@
           "url": "https://github.com/GradzikMichal/cpp_project",
           "summary": "Zadanie zaliczeniowe które pozwala obliczyć wyznacznik macierzy, regresję liniową oraz działać na liczbach zespolonych.",
           "highlights": [
-            "Pierwszy bardziej rozbudowany interfejs konsolowy jaki zrobiłem,"
+            "Pierwszy bardziej rozbudowany interfejs konsolowy jaki zrobiłem."
           ]
         }
       ]
@@ -235,8 +235,8 @@
       "summary": "Tworzenie wydarzeń dla studentów, takich jak Obóz PWr, otrzęsiny lub Forum Uczelni Technicznych. Współpraca z osobami z zewnątrz podczas tworzenia wydarzeń.",
       "highlights": [
         "Stworzenie oraz koordynacja wydarzenia cyklicznego,",
-        "Współpraca podczas organizowania dużych wydarzeń, takich jak Obóz PWr czy Forum Uczelni Technicznych",
-        "Tworzenie aplikacji webowych za pomocą Glide Apps, takich jak podróbka Tindera dla zjazdu FUT czy aplikacja z informacjami dla nowych studentów (Dni Zero)"
+        "Współpraca podczas organizowania dużych wydarzeń, takich jak Obóz PWr czy Forum Uczelni Technicznych,",
+        "Tworzenie aplikacji webowych za pomocą Glide Apps, takich jak podróbka Tindera dla zjazdu FUT czy aplikacja z informacjami dla nowych studentów (Dni Zero)."
       ]
     },
     {
@@ -322,7 +322,7 @@
       "name": "Nowe technologie"
     },
     {
-      "name": "Rozwiązywanie zagadek."
+      "name": "Rozwiązywanie zagadek"
     },
     {
       "name": "Elektronika"

@@ -6,7 +6,7 @@
     "email": "michalgradzik1000@gmail.com",
     "location": "Wrocław/Poland"
   },
-  "summary": "I completed my master's and bachelor's degrees at Wrocław University of Technology. I mainly programming in Python, but I am not afraid of other languages (I am currently improving my C++ skills).",
+  "summary": "I completed my master's and bachelor's degrees at Wrocław University of Technology. I mainly program in Python, but I am not afraid of other languages (I am currently improving my C++ skills).",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -24,7 +24,7 @@
       "end_date": "10/2024",
       "summary": "Writing codes in Python with type hinting.",
       "highlights": [
-        "Maintaining and expanding the software",
+        "Maintaining and expanding the software,",
         "Writing unit tests,",
         "Searching for suitable artificial intelligence models for a given task and training them,",
         "Preparing data for training artificial intelligence models."
@@ -39,10 +39,10 @@
       "summary": "Creating a backend in Java and assisting in the creation of a frontend using React.",
       "highlights": [
         "Creating new and expanding existing architecture,",
-        "Writing unit, integration, e2e and contract tests",
-        "Integration of new microservices in AWS",
-        "Creating structure and databases itself",
-        "Creating new endpoints in CRUD methodology",
+        "Writing unit, integration, e2e and contract tests,",
+        "Integration of new microservices in AWS,",
+        "Creating structure and databases itself,",
+        "Creating new endpoints in CRUD methodology,",
         "Creating API documentation using Swagger."
       ]
     }
@@ -54,9 +54,9 @@
         {
           "title": "ML/AI tasks",
           "url": "https://github.com/GradzikMichal/machine_learning_tasks",
-          "summary": "Exercises and projest done during ML laboratories",
+          "summary": "Exercises and project done during ML laboratories",
           "highlights": [
-            "Learned machine learning from the scratch for example writing SVM or neural networks using numpy",
+            "Learned machine learning from the scratch, for example writing SVM or neural networks using numpy",
             "Learned VGG and ResNet models", "Learned concept of transformers and GAN"
           ]
         },
@@ -66,7 +66,7 @@
           "summary": "Two person project done for 'Object programming' course",
           "highlights": [
             "Solved issue with choosing programming language,", "Used Microsoft Azure for database hosting and communicating with it using SQL,",
-            "Used Tkinter and Open3D to create GUI,", "Almost whole project done by myself,", "Moved remoted MS Azure database to InMemory database"
+            "Used Tkinter and Open3D to create GUI,", "Almost whole project done by myself,", "Moved remoted MS Azure database to InMemory database."
           ],
           "images": [
             {
@@ -83,9 +83,9 @@
           "title": "Self driving car",
           "url": "https://github.com/GradzikMichal/self_driving_car",
 
-          "summary": "Project done for bought AI course on Udemy. Later it was changed for the purpose of passing the academic course.",
+          "summary": "Project done for a course bought via Udemy. Later improved for the purpose of passing an academic course.",
           "highlights": [
-            "Started the journey with AI,", "Learned PyTorch library",
+            "Started the journey with AI,", "Learned PyTorch library,",
             "Changed code to worked on two Raspberry Pi in the same time. Database was used for this."
           ],
           "images": [
@@ -98,10 +98,9 @@
         {
           "title": "Solar system and 1/2/3 body problem",
           "url": "https://github.com/GradzikMichal/SolarSystem",
-          "summary": "Project done for passing Differential Equations course",
+          "summary": "Project done for Differential Equations course",
           "highlights": [
-            "",
-            "Rewriting and simplifying certain mathematical formulas,", "Tried implementing mathematics models in optimal way,",
+            "Rewrote and simplified certain mathematical formulas,", "Tried implementing mathematics models in optimal way,",
             "Learned how to present the results in readable way."
           ],
           "images": [
@@ -126,7 +125,7 @@
           "highlights": [
 
             "First GUI I have ever done,", "Learned PySimpleGUI library,",
-            "Created algorithm for sudoku,", "Created CLI application,"
+            "Created algorithm for sudoku,", "Created CLI application."
           ],
           "images": [
             {
@@ -144,7 +143,7 @@
           "url": "https://github.com/GradzikMichal/web_scraping",
           "summary": "Project written as part of a programming course to obtain an excellent passing grade.",
           "highlights": [
-            "Code allowing the collection of prices for a given product", "In later stages of development, the code was used to automate the search for good deals on other products,", "One of the first web scrapers I created."
+            "Code allowing the collection of prices for a given product,", "In later stages of development, the code was used to automate the search for good deals on other products,", "One of the first web scrapers I created."
           ]
         },
         {
@@ -186,11 +185,11 @@
         {
           "title": "Smaller tasks acedemic tasks and project",
           "url": "https://github.com/GradzikMichal/SQL_NoSQL_tasks",
-          "summary": "This repository contains a small portion of the tasks completed during the semester and the final project. The project involved inventing or finding a real life problem and solving it using a database. A database was created, its structure was designed, and it was supplemented using SQL.",
+          "summary": "This repository contains a small portion of the tasks completed during the Master's degree and the final project. The project involved inventing or finding a real life problem and solving it using a database. A database was created, its structure was designed, and it was supplemented using SQL.",
           "highlights": [
-            "Creating a database and populating it with fictitious data using PostgreSQL.,",
+            "Creating a database and populating it with fictitious data using PostgreSQL,",
             "Improving skills and acquiring knowledge of SQL (PostgreSQL),",
-            "Learning NoSQL (MongoDB).",
+            "Learning NoSQL (MongoDB),",
             "Independent work."
           ],
           "images": [
