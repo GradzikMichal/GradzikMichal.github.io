@@ -61,6 +61,15 @@
           ]
         },
         {
+          "title": "LLM NPC Generator",
+          "url": "https://github.com/GradzikMichal/LLM-NPC-generator",
+          "summary": "LLM task done with RAG.",
+          "highlights": [
+            "Learned LLM", "Learned basic Langchain functions,", "Combining LLM with RAG using Langchain,",
+            "Usage of Ollama,", "Usage of PyQt,", "Usage of Github CI/CD"
+          ]
+        },
+        {
           "title": "Periodic table",
           "url": "https://github.com/GradzikMichal/periodic_table",
           "summary": "Two person project done for 'Object programming' course",
