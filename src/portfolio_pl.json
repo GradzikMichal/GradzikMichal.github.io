@@ -61,6 +61,15 @@
           ]
         },
         {
+          "title": "Generator NPC LLM",
+          "url": "https://github.com/GradzikMichal/LLM-NPC-generator",
+          "summary": "Zadanie z LLM z wykorzystaniem RAG.",
+          "highlights": [
+            "Nauka LLM", "Nauka langchain,", "Połączenie LLM i RAG z wykorzystaniem Langchain,",
+            "Wykorzystanie Ollama'y,", "Wykorzystanie PyQt,", "Wykorzystanie Github CI/CD"
+          ]
+        },
+        {
           "title": "Układ okresowy",
           "url": "https://github.com/GradzikMichal/periodic_table",
           "summary": "Projekt dwuosobowy wykonany na zaliczenie przedmiotu 'Programowanie obiektowe'.",
