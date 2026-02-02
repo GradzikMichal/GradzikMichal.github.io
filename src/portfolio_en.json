@@ -17,6 +17,19 @@
   ],
   "work_experience": [
     {
+      "company": "Tias Sp. z o.o.",
+      "position": "Junior AI integration specialist",
+      "start_date": "11/2025",
+      "end_date": "02/2026",
+      "summary": "Creation of a chatbot and translator",
+      "highlights": [
+        "developing and implementing application architecture based on Docker and microservices,",
+        "using Ollama, langchain, and RedisVL to create RAG LLM,",
+        "using Django and PostgreSQL as backend, Svelte as frontend (fullstack),",
+        "analysing data using MS Excel."
+      ]
+    },
+    {
       "company": "Nokia",
       "position": "Python developer",
       "url": "https://nokiawroclaw.pl",
@@ -264,6 +277,16 @@
       "location": "Wrocław",
       "url": "https://pwr.edu.pl",
       "degrees": [
+        "PhD"
+      ],
+      "major": "Electricity price forecasting using AI/ML",
+      "graduation_date": "Not finished - dropped out"
+    },
+    {
+      "institution": "Wroclaw University of Science and Technology",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
         "Master's degree"
       ],
       "major": "Big Data Analytics",
@@ -318,7 +341,7 @@
       "proficiency_label": "Amateur"
     }
   ],
-  "soft_skills": "Adaptability, teamwork, flexibility, problem-solving, understanding team needs, communication skills, fast learner, creativity.",
+  "soft_skills": "Adaptability, teamwork, flexibility, problem-solving, understanding team needs, communication skills, fast learner, creativity, open minded, independent.",
   "languages": [
     {
       "language": "English",

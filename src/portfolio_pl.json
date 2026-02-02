@@ -17,6 +17,19 @@
   ],
   "work_experience": [
     {
+      "company": "Tias Sp. z o.o.",
+      "position": "Młodszy specjalista ds. wdrożeń AI",
+      "start_date": "11/2025",
+      "end_date": "02/2026",
+      "summary": "Stworzenie chatbota oraz tłumacza",
+      "highlights": [
+        "stworzenie oprogramowania na bazie architektury mikroserwisów oraz Dockera,",
+        "wykorzystanie Ollama, langchain oraz RedisVL do stworzenia RAG LLM,",
+        "wykorzystanie Django i PostgreSQL jako backed, Svelte jako frontend (fullstack),",
+        "analizowanie danych za pomocą MS Excel."
+      ]
+    },
+    {
       "company": "Nokia",
       "position": "Python developer",
       "url": "https://nokiawroclaw.pl",
@@ -257,6 +270,16 @@
     }
   ],
   "education": [
+     {
+      "institution": "Politechnika Wrocławska",
+      "location": "Wrocław",
+      "url": "https://pwr.edu.pl",
+      "degrees": [
+        "Doktorat"
+      ],
+      "major": "Predykcja cen energii za pomocą AI/ML",
+      "graduation_date": "Nie skończone - rzucone"
+    },
     {
       "institution": "Politechnika Wrocławska",
       "location": "Wrocław",
@@ -316,7 +339,7 @@
       "proficiency_label": "Junior"
     }
   ],
-  "soft_skills": "Zdolność do adaptacji, umiejętność pracy w zespole, elastyczność, kreatywne myślenie, umiejętność rozwiązywania problemów, rozumienie potrzeb zespołu oraz umiejętnośći komunikacyjne, szybko się uczę.",
+  "soft_skills": "Zdolność do adaptacji, umiejętność pracy w zespole, elastyczność, kreatywne myślenie, umiejętność rozwiązywania problemów, rozumienie potrzeb zespołu oraz umiejętnośći komunikacyjne, szybko się uczę, samodzielność, otwarty umysł.",
   "languages": [
     {
       "language": "Angielski",
